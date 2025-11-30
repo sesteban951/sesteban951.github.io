@@ -15,7 +15,7 @@ I study how reduced-order models, hybrid systems, and predictive control can be 
 
 <!-- Bibsearch Feature -->
 
-<!-- {% include bib_search.liquid %} -->
+{% include bib_search.liquid %}
 
 <div class="publications">
 

@@ -7,12 +7,14 @@
   booktitle={(Under Review)},
   year={2026},
   preview={preview_halo.png},
-  selected={true}
+  selected={true},
+  abstract={Reduced-order models are a powerful tool for analyzing and controlling high-dimensional dynamical systems, yet constructing such models for complex hybrid systems like legged robots remains challenging. Classical approaches rely on hand-designed template models (e.g., LIP, SLIP), which, though insightful, only approximate the underlying dynamics. In contrast, data-driven methods can extract low-dimensional representations, but it remains unclear when stability and safety properties observed in the latent space meaningfully transfer back to the full-order system.
+  We introduce HALO (Hybrid Auto-encoded Locomotion), a framework for learning latent reduced-order models of periodic hybrid dynamics directly from trajectory data. HALO employs an autoencoder to identify a low-dimensional latent state together with a learned latent Poincar\'e map that captures step-to-step locomotion dynamics. This enables Lyapunov analysis in the latent space and the construction of an associated region of attraction---which can be lifted back to the full-order state space through the decoder. Experiments on a simulated hopping robot and full-body humanoid locomotion demonstrate that HALO yields low-dimensional models that retain meaningful stability structure and predict full-order region-of-attraction boundaries.}
 }
 
 @inproceedings{ghansah2025hierarchical,
   title={Hierarchical Reduced-Order Model Predictive Control for Robust Locomotion on Humanoid Robots}, 
-  author={Ghansah, Adrian B. and Esteban, Sergio A. and Ames, Aaron D.},
+  author={Ghansah, Adrian B and Esteban, Sergio A and Ames, Aaron D},
   booktitle={2025 IEEE-RAS 24th International Conference on Humanoid Robots (Humanoids)}, 
   year={2025},
   volume={},
@@ -23,7 +25,8 @@
   pdf={https://arxiv.org/pdf/2509.04722},
   website={https://vimeo.com/1110476518},
   preview={preview_hierarchical_rom_mpc.gif},
-  selected={true}
+  selected={true},
+  abstract={As humanoid robots enter real-world environments, ensuring robust locomotion across diverse environments is crucial.  This paper presents a computationally efficient hierarchical control framework for humanoid robot locomotion based on reduced-order models---enabling versatile step planning and incorporating arm and torso dynamics to better stabilize the walking. At the high level, we use the step-to-step dynamics of the ALIP model to simultaneously optimize over step periods, step lengths, and ankle torques via nonlinear MPC. The ALIP trajectories are used as references to a linear MPC framework that extends the standard SRB-MPC to also include simplified arm and torso dynamics. We validate the performance of our approach through simulation and hardware experiments on the Unitree G1 humanoid robot. In the proposed framework the high-level step planner runs at 40 Hz and the mid-level MPC at 500 Hz using the onboard mini-PC. Adaptive step timing increased the push recovery success rate by 36\%, and the upper body control improved the yaw disturbance rejection. We also demonstrate robust locomotion across diverse indoor and outdoor terrains, including grass, stone pavement, and uneven  gym mats.}
 }
 
 @inproceedings{esteban2025layered,
@@ -33,7 +36,8 @@
   year={2025},
   pdf={https://arxiv.org/pdf/2502.15630.pdf},
   preview={preview_layered_locomotion.png},
-  selected={true}
+  selected={true},
+  abstract={Reduced-order models (ROMs) provide a powerful means of synthesizing dynamic walking gaits on legged robots. Yet this approach lacks the formal guarantees enjoyed by methods that utilize the full-order model (FOM) for gait synthesis, e.g., hybrid zero dynamics. This paper aims to unify these approaches through a layered control perspective. In particular, we establish conditions on when a ROM of locomotion yields stable walking on the full-order hybrid dynamics. To achieve this result, given an ROM we synthesize a zero dynamics manifold encoding the behavior of the ROM---controllers can be synthesized that drive the FOM to this surface, yielding hybrid zero dynamics. We prove that a stable periodic orbit in the ROM implies an input-to-state stable periodic orbit of the FOM's hybrid zero dynamics, and hence the FOM dynamics. This result is demonstrated in simulation on a linear inverted pendulum ROM and a 5-link planar walking FOM.}
 }
 
 @inproceedings{esteban2025reduced,
@@ -50,7 +54,8 @@
   pdf={https://arxiv.org/pdf/2502.15630.pdf},
   website={https://rom-cimpc.github.io/},
   preview={preview_rom_cimpc.gif},
-  selected={true}
+  selected={true},
+  abstract={Humanoid robots have great potential for real-world applications due to their ability to operate in environments built for humans, but their deployment is hindered by the challenge of controlling their underlying high-dimensional nonlinear hybrid dynamics. While reduced-order models like the Hybrid Linear Inverted Pendulum (HLIP) are simple and computationally efficient, they lose whole-body expressiveness. Meanwhile, recent advances in Contact-Implicit Model Predictive Control (CI-MPC) enable robots to plan through multiple hybrid contact modes, but remain vulnerable to local minima and require significant tuning. We propose a control framework that combines the strengths of HLIP and CI-MPC. The reduced-order model generates a nominal gait, while CI-MPC manages the whole-body dynamics and modifies the contact schedule as needed. We demonstrate the effectiveness of this approach in simulation with a novel 24 degree-of-freedom humanoid robot: Achilles. Our proposed framework achieves rough terrain walking, disturbance recovery, robustness under model and state uncertainty, and allows the robot to interact with obstacles in the environment, all while running online in real-time at 50 Hz.}
 }
 
 @inproceedings{esteban2021low,
@@ -60,7 +65,8 @@
   year={2021},
   pdf={https://peer.asee.org/low-cost-open-architecture-experimental-platform-for-dynamic-systems-and-feedback-control.pdf},
   preview={preview_low_cost.png},
-  selected={false}
+  selected={false},
+  abstract={Conventional experimental systems used in the dynamic systems and controls engineering sub-discipline are expensive and non-portable. Further, the high cost can limit the number of experimental apparatuses available and reduce the time in which each student can interface with the hardware. Low-cost learning platforms offer an alternative method to deliver similar learning outcomes afforded by conventional platforms at an affordable cost in a portable package, greatly improving accessibility for all students. In this paper, the design, theory, functionality, and educational merit of a low-cost, portable 2nd-order dynamical pendulum system are discussed.}
 }
 
 @inproceedings{Esteban:lpsc2018,
