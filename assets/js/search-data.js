@@ -170,7 +170,7 @@ ninja.data = [{
               window.location.href = "/projects/stanford_surf/";
             },},{id: "projects-humanoid-drone-takeoff",
           title: 'Humanoid-Drone Takeoff',
-          description: "with background image",
+          description: "First ever drone launch from a humanoid robot.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/tii/";
             },},{id: "projects-caltech-trophy",
