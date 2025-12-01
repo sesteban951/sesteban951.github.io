@@ -13,10 +13,9 @@ This project explored generating arm trajectories for the Atlas humanoid to perf
 <!-- Button to PDF Report -->
 <div style="display: flex; justify-content: center; gap: 1rem; margin-top: 1rem;">
   <a href="{{ '/assets/pdf/ME133_Final_Report.pdf' | relative_url }}"
-     class="btn btn-primary"
-     target="_blank"
-     rel="noopener">
-    Report [PDF]
+     class="btn btn-light border border-dark shadow-sm mx-2 px-4 py-2"
+     target="_blank" rel="noopener">
+    📄 Report (PDF)
   </a>
 </div>
 

@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Humanoid-Drone Takeoff
+title: Thrust-Assisted Humanoid
 description: with background image
 img: assets/img/12.jpg
-importance: 1
+importance: 2
 category: Research
 related_publications: false
 ---
