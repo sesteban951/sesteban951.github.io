@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "Projects",
-          description: "A growing collection of your cool projects.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -93,7 +93,7 @@ ninja.data = [{
               window.location.href = "/projects/9_project/";
             },},{id: "projects-atlas-drums",
           title: 'Atlas Drums',
-          description: "Caltech ME 133a - Atlas playing drums.",
+          description: "Atlas playing drums and dancing in simulation.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/atals_drums/";
             },},{id: "projects-caltech-wave",
@@ -101,6 +101,21 @@ ninja.data = [{
           description: "Design, fabrication, and control of a 2-DOF gimbal system for UAV altimetry sensing.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/caltech_wave/";
+            },},{id: "projects-end-effector-design",
+          title: 'End Effector Design',
+          description: "Mechanical design of an end effector.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/end_effector/";
+            },},{id: "projects-flyball-tachometer",
+          title: 'Flyball Tachometer',
+          description: "Flyball tachometer for measuring rotational speed.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/flyball/";
+            },},{id: "projects-low-cost-dynamics-amp-controls-platform",
+          title: 'Low-cost Dynamics &amp;amp; Controls Platform',
+          description: "Experimental platforms to provide affordable, simple alternatives to traditional lab equipment, giving students more opportunities in dynamics and control.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/low_cost_platform/";
             },},{id: "projects-mit-lincoln-lab",
           title: 'MIT Lincoln Lab',
           description: "Design, fabrication, and control of a low earth orbit (LEO) oriented gimbal system for precision space-to-earth pointing.",
@@ -111,6 +126,11 @@ ninja.data = [{
           description: "Mars Perseverance Rover mobility and mechanical design for Robosimian.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/nasa_jpl/";
+            },},{id: "projects-pibot-on-steroids",
+          title: 'PiBot on Steroids',
+          description: "Modified differential drive robot with added components. This was to spy on my dog while she was outside!",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/pi_bot/";
             },},{id: "projects-raytheon",
           title: 'Raytheon',
           description: "Test and support equipment for aerospace hardware.",
