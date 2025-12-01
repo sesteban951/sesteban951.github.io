@@ -16,6 +16,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-experience",
+          title: "Experience",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/experience/";
+          },
         },{id: "nav-projects",
           title: "Projects",
           description: "A growing collection of your cool projects.",
@@ -84,6 +91,46 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "projects-atlas-drums",
+          title: 'Atlas Drums',
+          description: "Atlas Drums",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/atals_drums/";
+            },},{id: "projects-caltech-wave",
+          title: 'Caltech WAVE',
+          description: "Design, fabrication, and control of a 2-DOF gimbal system for UAV altimetry sensing.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/caltech_wave/";
+            },},{id: "projects-mit-lincoln-lab",
+          title: 'MIT Lincoln Lab',
+          description: "Design, fabrication, and control of a low earth orbit (LEO) oriented gimbal system for precision space-to-earth pointing.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/mitll/";
+            },},{id: "projects-nasa-jet-propulsion-lab",
+          title: 'NASA Jet Propulsion Lab',
+          description: "Mars Perseverance Rover mobility and mechanical design for Robosimian.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/nasa_jpl/";
+            },},{id: "projects-raytheon",
+          title: 'Raytheon',
+          description: "Test and support equipment for aerospace hardware.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/raytheon/";
+            },},{id: "projects-seti-institute-reu",
+          title: 'SETI Institute REU',
+          description: "Extracting Water from the Martian Atmosphere",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/seti_reu/";
+            },},{id: "projects-stanford-surf",
+          title: 'Stanford SURF',
+          description: "Path planning for ecological surveying using UAV swarms.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/stanford_surf/";
+            },},{id: "projects-humanoid-drone-takeoff",
+          title: 'Humanoid-Drone Takeoff',
+          description: "with background image",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/tii/";
             },},{
       id: 'light-theme',
       title: 'Change theme to light',
