@@ -48,6 +48,16 @@ Field experiments used DJI Matrice 100 drones with gimbal-mounted cameras to exe
     The experimental platform included DJI Matrice 100 drones (left) which flew pre-planned trajectories (middle) to capture images of toy penguins (right). The field experiment was conducted at a local park near Stanford University.
 </div>
 
+## Video Demonstration
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0" style="text-align: center;">
+        <div style="display: inline-block; width: 100%;">
+            {% include video.liquid path="https://www.youtube.com/embed/l3pHSmIutEo" class="img-fluid rounded z-depth-1" %}
+        </div>
+    </div>
+</div>
+
 ## Poster Presentation and Award
 
 This research was presented at the Stanford SURF Research Poster Symposium, where my poster received second place out of forty participating scholars.

@@ -52,3 +52,13 @@ The gimbal was mounted on the underside of a UAV platform and was actuated throu
 <div class="caption">
     The final gimbal design (left) and the control diagram (right) illustrating the simple yet effective state-feedback loop between the sensors and servos.
 </div>
+
+## Video Demonstration
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0" style="text-align: center;">
+        <div style="display: inline-block; width: 100%;">
+            {% include video.liquid path="https://www.youtube.com/embed/Hzu5IxoURqU" class="img-fluid rounded z-depth-1" %}
+        </div>
+    </div>
+</div>
