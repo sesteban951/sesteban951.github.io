@@ -93,7 +93,7 @@ ninja.data = [{
               window.location.href = "/projects/9_project/";
             },},{id: "projects-atlas-drums",
           title: 'Atlas Drums',
-          description: "Atlas playing drums and dancing in simulation.",
+          description: "Atlas playing drums and dancing.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/atals_drums/";
             },},{id: "projects-caltech-wave",
@@ -131,11 +131,21 @@ ninja.data = [{
           description: "Modified differential drive robot with added components. This was to spy on my dog while she was outside!",
           section: "Projects",handler: () => {
               window.location.href = "/projects/pi_bot/";
+            },},{id: "projects-pvc-pipe-cutter",
+          title: 'PVC Pipe Cutter',
+          description: "Design and build of a PVC pipe cutter tool.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/pvc_cutter/";
             },},{id: "projects-raytheon",
           title: 'Raytheon',
           description: "Test and support equipment for aerospace hardware.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/raytheon/";
+            },},{id: "projects-rover-rocker-bogie-suspension-simulation",
+          title: 'Rover Rocker-Bogie Suspension Simulation',
+          description: "Simulation of a rover with rocker-bogie suspension over rough terrain.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/rover/";
             },},{id: "projects-seti-institute-reu",
           title: 'SETI Institute REU',
           description: "Extracting Water from the Martian Atmosphere",
@@ -151,6 +161,16 @@ ninja.data = [{
           description: "with background image",
           section: "Projects",handler: () => {
               window.location.href = "/projects/tii/";
+            },},{id: "projects-caltech-trophy",
+          title: 'Caltech Trophy',
+          description: "Manufacturing a trophy using various machining techniques.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/trophy/";
+            },},{id: "projects-metal-truck",
+          title: 'Metal Truck',
+          description: "Manufacturing a metal truck using casting, welding, and machining.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/truck/";
             },},{
       id: 'light-theme',
       title: 'Change theme to light',
