@@ -93,7 +93,7 @@ ninja.data = [{
               window.location.href = "/projects/9_project/";
             },},{id: "projects-atlas-drums",
           title: 'Atlas Drums',
-          description: "Atlas Drums",
+          description: "Caltech ME 133a - Atlas playing drums.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/atals_drums/";
             },},{id: "projects-caltech-wave",
