@@ -30,6 +30,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
+        },{id: "nav-resume-amp-cv",
+          title: "Resume &amp; CV",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/resume_cv/";
+          },
         },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
@@ -95,7 +102,7 @@ ninja.data = [{
           title: 'Atlas Drums',
           description: "Atlas playing drums and dancing.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/atals_drums/";
+              window.location.href = "/projects/atlas_drums/";
             },},{id: "projects-caltech-wave",
           title: 'Caltech WAVE',
           description: "Design, fabrication, and control of a 2-DOF gimbal system for UAV altimetry sensing.",
@@ -111,6 +118,11 @@ ninja.data = [{
           description: "Flyball tachometer for measuring rotational speed.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/flyball/";
+            },},{id: "projects-thrust-assisted-humanoid",
+          title: 'Thrust-Assisted Humanoid',
+          description: "with background image",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/flying_humanoid/";
             },},{id: "projects-low-cost-dynamics-amp-controls-platform",
           title: 'Low-cost Dynamics &amp;amp; Controls Platform',
           description: "Experimental platforms to provide affordable, simple alternatives to traditional lab equipment, giving students more opportunities in dynamics and control.",
