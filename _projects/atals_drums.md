@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Atlas Drums
-description: Atlas playing drums and dancing in simulation.
+description: Atlas playing drums and dancing.
 img: assets/img/atlas_drums/atlas_drums_cropped.png
 importance: 1
 category: Coursework
