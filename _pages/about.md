@@ -24,7 +24,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I'm a Ph.D. student at the [California Institute of Technology](https://www.caltech.edu/), where I study robotics, control, and dynamics in the [Amber Lab](http://www.bipedalrobotics.com/) advised by Professor [Aaron Ames](https://mce.caltech.edu/people/adames). My research focuses on **robotic locomotion** and **control of hybrid dynamical systems**, with additional interest in the intersection of robotics, control theory, and machine learning for legged locomotion.
+I'm a Ph.D. student at the [California Institute of Technology](https://www.caltech.edu/), where I study robotics, control, and dynamics in the [Amber Lab](http://www.bipedalrobotics.com/) advised by Professor [Aaron Ames](https://mce.caltech.edu/people/adames). My research focuses on **robotic locomotion** and **control of hybrid dynamical systems**, with interest in the intersection of robotics, control theory, and machine learning for legged locomotion.
 
 Throughout my career, I have taken on roles as a researcher, engineer, tutor, and mentor, each of which has strengthened my foundation in robotics and autonomous systems. I’ve had the privilege of working at the [NASA Jet Propulsion Laboratory](https://www.jpl.nasa.gov/), [MIT Lincoln Laboratory](https://www.ll.mit.edu/), [Raytheon](https://www.rtx.com/), [Stanford University](https://www.stanford.edu/), and the [SETI Institute](https://www.seti.org/), where my work often involved robotic systems and hardware development. These experiences—spanning research, interdisciplinary engineering, and hardware deployment—have shaped my perspective on how to design, control, and deploy autonomous robotic systems.
 
