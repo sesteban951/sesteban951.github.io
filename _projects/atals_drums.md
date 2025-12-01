@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Atlas Drums
-description: Caltech ME 133a - Atlas playing drums.
+description: Atlas playing drums and dancing in simulation.
 img: assets/img/atlas_drums/atlas_drums_cropped.png
 importance: 1
 category: Coursework

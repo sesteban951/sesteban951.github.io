@@ -2,12 +2,13 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: A growing collection of your cool projects.
 nav: true
 nav_order: 3
-display_categories: [Research, Coursework]
+display_categories: [Research, Fun, Coursework]
 horizontal: false
 ---
+
+Add summary of interests or projects here.
 
 <!-- pages/projects.md -->
 <div class="projects">
