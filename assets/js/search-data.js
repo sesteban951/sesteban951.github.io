@@ -118,9 +118,9 @@ ninja.data = [{
           description: "Flyball tachometer for measuring rotational speed.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/flyball/";
-            },},{id: "projects-thrust-assisted-humanoid",
-          title: 'Thrust-Assisted Humanoid',
-          description: "with background image",
+            },},{id: "projects-thrust-assisted-biped-robot",
+          title: 'Thrust-Assisted Biped Robot',
+          description: "Locomotion implementation for a biped robot with thrust assistance.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/flying_humanoid/";
             },},{id: "projects-low-cost-dynamics-amp-controls-platform",
