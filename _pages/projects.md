@@ -8,7 +8,7 @@ display_categories: [Research, Fun, Coursework]
 horizontal: false
 ---
 
-Add summary of interests or projects here.
+**My projects span the full stack of robotics**—from mechanical design and machining to control theory and software development. I genuinely enjoy working across all layers of the robotics stack as it allows me to understand robotics systems holistically.
 
 <!-- pages/projects.md -->
 <div class="projects">
