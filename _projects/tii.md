@@ -10,7 +10,9 @@ related_publications: false
 
 ## Overview
 
-The purpose of this project was to show how a multi-robot team could perform a complex task such as search and rescue. In this case, a humanoid robot would navigate to a location, deploy a drone, and the drone would then take off and survey the area. **My role in this project was in developing the drone deployment maneuver and attachment/detachment mechanism.** This involved trajectory planning, control design, hardware design, and testing.
+The purpose of this project was to show how a multi-robot team could perform a complex task such as search and rescue. In this case, a humanoid robot would navigate to a location, deploy a drone, and the drone would then take off and survey the area. For this project, we used a Unitree G1 Humanoid robot and the custom M4 driving and flying robot.
+
+**My role in this project was in developing the drone deployment maneuver and attachment/detachment mechanism.** This involved trajectory planning, control design, hardware design, and testing.
 
 <!-- Deployment -->
 <div class="column">
@@ -51,7 +53,7 @@ Since the bending-over maneuver significantly shifts the humanoid's center of ma
     </div>
 </div>
 <div class="caption">
-    Example simulation of the humanoid robot bending over. The blue sphere is the COM of the robot and the red sphere is the projection of the COM onto the ground, which is carefully controlled to avoid tipping over.
+    Example <a href="https://mujoco.org/">Mujoco</a> simulation of the humanoid robot bending over. The blue sphere is the COM of the robot and the red sphere is the projection of the COM onto the ground, which is carefully controlled to avoid tipping over.
 </div>
 
 ## Humanoid-Drone Interface
@@ -69,6 +71,19 @@ For the drone deployment, we designed a custom lightweight backpack that securel
 </div>
 <div class="caption">
     Design of the 0.9 kg backpack and its servo lock/unlock mechanism.
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0" style="text-align: center;">
+        <div style="display: inline-block; width: 80%;">
+            {% include figure.liquid 
+                path="assets/img/tii/servo_circuit.webp" 
+                class="img-fluid rounded z-depth-1" %}
+        </div>
+    </div>
+</div>
+<div class="caption">
+    Custom circuit that interfaces with a Teensy microcontroller to control the servos.
 </div>
 
 ## Testing

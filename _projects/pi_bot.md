@@ -10,9 +10,9 @@ related_publications: false
 
 The goal of this project was to spy on my dog (Snowflake) while she was outside. 
 
-I equipped a standard PiBot robot with a WiFi-enabled camera for real-time streaming, replaced the Arduino with a Raspberry Pi 3B+ running Ubuntu MATE, and designed and 3D-printed custom structural components (hence on steroids). 
+I equipped a standard PiBot robot with a camera for real-time streaming, replaced the Arduino with a WiFi enabled Raspberry Pi 3B+ running Ubuntu MATE, and designed and 3D-printed custom structural components (hence on steroids). 
 
-I also made custom jumper wires and upgraded the battery systems for both the motors and the Raspberry Pi. Using the Robot Operating System (ROS), I integrated mobility control, live camera streaming, and ultrasonic sensing into a unified software framework. The robot is driven using an Xbox controller, with custom Python scripts implemented as ROS nodes. 
+I also made custom circuit that handles an upgraded battery system, both motors, and the Raspberry Pi. Using the Robot Operating System (ROS), I integrated mobility control, live camera streaming, and ultrasonic sensing into a unified software framework. The robot is driven using an Xbox controller, with custom Python scripts implemented as ROS nodes.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
