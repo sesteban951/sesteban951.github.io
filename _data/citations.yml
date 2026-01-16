@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2025-12-19'
+  last_updated: '2026-01-16'
 papers:
   iaOXonsAAAAJ:9yKSN-GCB0IC:
     citations: 3
@@ -10,7 +10,7 @@ papers:
     title: 'A Layered Control Perspective on Legged Locomotion: Embedding Reduced Order Models via Hybrid Zero Dynamics'
     year: '2025'
   iaOXonsAAAAJ:u-x6o8ySG0sC:
-    citations: 2
+    citations: 3
     title: Hierarchical Reduced-Order Model Predictive Control for Robust Locomotion on Humanoid Robots
     year: '2025'
   iaOXonsAAAAJ:u5HHmVD_uO8C:
