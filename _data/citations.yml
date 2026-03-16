@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-01-16'
+  last_updated: '2026-03-16'
 papers:
   iaOXonsAAAAJ:9yKSN-GCB0IC:
     citations: 3
     title: Reduced-Order Model Guided Contact-Implicit Model Predictive Control for Humanoid Locomotion
     year: '2025'
   iaOXonsAAAAJ:d1gkVwhDpl0C:
-    citations: 0
+    citations: 1
     title: 'A Layered Control Perspective on Legged Locomotion: Embedding Reduced Order Models via Hybrid Zero Dynamics'
     year: '2025'
   iaOXonsAAAAJ:u-x6o8ySG0sC:
