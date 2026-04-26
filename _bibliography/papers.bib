@@ -1,15 +1,26 @@
 ---
 ---
 
+@inproceedings{esteban2026surprising,
+  title={On Surprising Effects of Risk-Aware Domain Randomization for Contact-Rich Sampling-based Predictive Control},
+  author={Esteban, Sergio A and Li, Junheng and Kurtz, Vince and Ames, Aaron D},
+  booktitle={2026 ICRA: Workshop on the Path Towards Generalizable Contact-Rich Robotics - Control and Representation},
+  year={2026},
+  selected={true},
+  abstract={Domain randomization (DR) is widely used in policy learning to improve robustness to modeling error, but remains underexplored in contact-rich sampling-based predictive control (SPC), where rollout quality is highly sensitive to uncertainty. In this work, we take the first step by studying risk-aware DR in predictive sampling on a simple yet representative Push-T task, comparing average, optimistic, and pessimistic rollout aggregations under randomized model instances. Our initial results suggest that DR affects not only the robustness but also the optimization landscape itself, specifically by reshaping the basin of attraction. This opens up potential for exploring better grounded risk-aware contact-rich SPC under uncertainty.}
+}
+
 @inproceedings{werner2025halo,
   title={HALO: Hybrid Auto-encoded Locomotion with Learned Latent Dynamics, Poincar\'e Maps, and Regions of Attraction},
   author={Werner*, Blake and Esteban*, Sergio A and {de Sa}, Massimiliano and Cohen, Max H and Ames, Aaron D},
   booktitle={2026 Learning for Dynamics and Control Conference (L4DC)},
   year={2026},
   preview={preview_halo.png},
+  pdf={https://arxiv.org/pdf/2604.18887},
+  volume={331},
   selected={true},
-  abstract={Reduced-order models are a powerful tool for analyzing and controlling high-dimensional dynamical systems, yet constructing such models for complex hybrid systems like legged robots remains challenging. Classical approaches rely on hand-designed template models (e.g., LIP, SLIP), which, though insightful, only approximate the underlying dynamics. In contrast, data-driven methods can extract low-dimensional representations, but it remains unclear when stability and safety properties observed in the latent space meaningfully transfer back to the full-order system.
-  We introduce HALO (Hybrid Auto-encoded Locomotion), a framework for learning latent reduced-order models of periodic hybrid dynamics directly from trajectory data. HALO employs an autoencoder to identify a low-dimensional latent state together with a learned latent Poincar\'e map that captures step-to-step locomotion dynamics. This enables Lyapunov analysis in the latent space and the construction of an associated region of attraction---which can be lifted back to the full-order state space through the decoder. Experiments on a simulated hopping robot and full-body humanoid locomotion demonstrate that HALO yields low-dimensional models that retain meaningful stability structure and predict full-order region-of-attraction boundaries.}
+  abstract={Reduced-order models are powerful for analyzing and controlling high-dimensional dynamical systems. Yet constructing these models for complex hybrid systems such as legged robots remains challenging. Classical approaches rely on hand-designed template models (e.g., LIP, SLIP), which, though insightful, only approximate the underlying dynamics. In contrast, data-driven methods can extract more accurate low-dimensional representations, but it remains unclear when stability and safety properties observed in the latent space meaningfully transfer back to the full-order system.
+To bridge this gap, we introduce HALO (Hybrid Auto-encoded Locomotion), a framework for learning latent reduced-order models of periodic hybrid dynamics directly from trajectory data. HALO employs an autoencoder to identify a low-dimensional latent state together with a learned latent Poincar\'e map that captures step-to-step locomotion dynamics. This enables Lyapunov analysis and the construction of an associated region of attraction in the latent space, both of which can be lifted back to the full-order state space through the decoder. Experiments on a simulated hopping robot and full-body humanoid locomotion demonstrate that HALO yields low-dimensional models that retain meaningful stability structure and predict full-order region-of-attraction boundaries.}
 }
 
 @inproceedings{ghansah2025hierarchical,
@@ -29,15 +40,21 @@
   abstract={As humanoid robots enter real-world environments, ensuring robust locomotion across diverse environments is crucial.  This paper presents a computationally efficient hierarchical control framework for humanoid robot locomotion based on reduced-order models---enabling versatile step planning and incorporating arm and torso dynamics to better stabilize the walking. At the high level, we use the step-to-step dynamics of the ALIP model to simultaneously optimize over step periods, step lengths, and ankle torques via nonlinear MPC. The ALIP trajectories are used as references to a linear MPC framework that extends the standard SRB-MPC to also include simplified arm and torso dynamics. We validate the performance of our approach through simulation and hardware experiments on the Unitree G1 humanoid robot. In the proposed framework the high-level step planner runs at 40 Hz and the mid-level MPC at 500 Hz using the onboard mini-PC. Adaptive step timing increased the push recovery success rate by 36\%, and the upper body control improved the yaw disturbance rejection. We also demonstrate robust locomotion across diverse indoor and outdoor terrains, including grass, stone pavement, and uneven  gym mats.}
 }
 
-@inproceedings{esteban2025layered,
-  title={A Layered Control Perspective on Legged Locomotion: Embedding Reduced Order Models via Hybrid Zero Dynamics},
+@INPROCEEDINGS{esteban2025layered,
   author={Esteban, Sergio A and Cohen, Max H and Ghansah, Adrian B and Ames, Aaron D},
-  booktitle={2025 IEEE Conference on Decision and Control (CDC)},
+  booktitle={2025 IEEE 64th Conference on Decision and Control (CDC)}, 
+  title={A Layered Control Perspective on Legged Locomotion: Embedding Reduced Order Models via Hybrid Zero Dynamics}, 
   year={2025},
   pdf={https://arxiv.org/pdf/2509.00294},
   preview={preview_layered_locomotion.png},
   selected={true},
-  abstract={Reduced-order models (ROMs) provide a powerful means of synthesizing dynamic walking gaits on legged robots. Yet this approach lacks the formal guarantees enjoyed by methods that utilize the full-order model (FOM) for gait synthesis, e.g., hybrid zero dynamics. This paper aims to unify these approaches through a layered control perspective. In particular, we establish conditions on when a ROM of locomotion yields stable walking on the full-order hybrid dynamics. To achieve this result, given an ROM we synthesize a zero dynamics manifold encoding the behavior of the ROM---controllers can be synthesized that drive the FOM to this surface, yielding hybrid zero dynamics. We prove that a stable periodic orbit in the ROM implies an input-to-state stable periodic orbit of the FOM's hybrid zero dynamics, and hence the FOM dynamics. This result is demonstrated in simulation on a linear inverted pendulum ROM and a 5-link planar walking FOM.}
+  volume={},
+  number={},
+  pages={3065-3072},
+  abstract={Reduced-order models (ROMs) provide a powerful means of synthesizing dynamic walking gaits on legged robots. Yet this approach lacks the formal guarantees enjoyed by methods that utilize the full-order model (FOM) for gait synthesis, e.g., hybrid zero dynamics. This paper aims to unify these approaches through a layered control perspective. In particular, we establish conditions on when a ROM of locomotion yields stable walking on the full-order hybrid dynamics. To achieve this result, given an ROM we synthesize a zero dynamics manifold encoding the behavior of the ROM—controllers can be synthesized that drive the FOM to this surface, yielding hybrid zero dynamics. We prove that a stable periodic orbit in the ROM implies an input-to-state stable periodic orbit of the FOM’s hybrid zero dynamics, and hence the FOM dynamics. This result is demonstrated in simulation on a linear inverted pendulum ROM and a 5-link planar walking FOM.},
+  keywords={Legged locomotion;Manifolds;Reduced order systems;Orbits;Stability analysis;Encoding;Read only memory;Robots},
+  doi={10.1109/CDC57313.2025.11312397},
+  ISSN={2576-2370},
 }
 
 @inproceedings{esteban2025reduced,
