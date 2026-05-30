@@ -13,6 +13,7 @@ Contact: **sesteban** at **caltech** dot **edu**
 <div class="text-center mt-4">
   <a href="{{ '/assets/pdf/CV_Sergio_Esteban.pdf' | relative_url }}"
      class="btn btn-light border border-dark shadow-sm mx-2 px-4 py-2"
+     style="border-radius: 0.6rem;"
      target="_blank" rel="noopener">
     📘 CV (PDF)
   </a>
