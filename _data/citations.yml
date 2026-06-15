@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-05-25'
+  last_updated: '2026-06-15'
 papers:
   iaOXonsAAAAJ:2osOgNQ5qMEC:
     citations: 0
@@ -9,6 +9,10 @@ papers:
     citations: 5
     title: Reduced-Order Model Guided Contact-Implicit Model Predictive Control for Humanoid Locomotion
     year: '2025'
+  iaOXonsAAAAJ:UeHWp8X0CEIC:
+    citations: 0
+    title: Accelerating and Scaling MPC-Guided Reinforcement Learning for Humanoid Locomotion and Manipulation
+    year: '2026'
   iaOXonsAAAAJ:d1gkVwhDpl0C:
     citations: 1
     title: 'A Layered Control Perspective on Legged Locomotion: Embedding Reduced Order Models via Hybrid Zero Dynamics'
@@ -18,7 +22,7 @@ papers:
     title: On Surprising Effects of Risk-Aware Domain Randomization for Contact-Rich Sampling-based Predictive Control
     year: '2026'
   iaOXonsAAAAJ:u-x6o8ySG0sC:
-    citations: 4
+    citations: 5
     title: Hierarchical Reduced-Order Model Predictive Control for Robust Locomotion on Humanoid Robots
     year: '2025'
   iaOXonsAAAAJ:u5HHmVD_uO8C:
