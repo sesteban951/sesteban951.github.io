@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-07-22'
+  last_updated: '2026-07-29'
 papers:
   iaOXonsAAAAJ:2osOgNQ5qMEC:
     citations: 0
-    title: 'HALO: Hybrid Auto-encoded Locomotion with Learned Latent Dynamics, Poincar\''e Maps, and Regions of Attraction'
+    title: 'HALO: Hybrid Auto-encoded Locomotion with Learned Latent Dynamics, Poincare Maps, and Regions of Attraction'
     year: '2026'
   iaOXonsAAAAJ:9yKSN-GCB0IC:
-    citations: 7
+    citations: 8
     title: Reduced-Order Model Guided Contact-Implicit Model Predictive Control for Humanoid Locomotion
     year: '2025'
   iaOXonsAAAAJ:UeHWp8X0CEIC:
