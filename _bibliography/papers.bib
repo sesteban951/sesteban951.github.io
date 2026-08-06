@@ -1,11 +1,40 @@
 ---
 ---
 
+@article{esteban2026shooting,
+  title={Shooting for Contact: Contact-Implicit Multiple Shooting for Dynamic Motion Retargeting},
+  author={Esteban, Sergio A and Siu, Jason H K and Mach, Derrick and Li, Junheng and Kurtz, Vince and Burdick, Joel W and Ames, Aaron D},
+  journal={arXiv preprint arXiv:2608.03116},
+  year={2026},
+  arxiv={2608.03116},
+  pdf={https://arxiv.org/pdf/2608.03116},
+  website={https://shooting-for-contact.github.io/},
+  preview={preview_shooting.gif},
+  selected={true},
+  code={https://github.com/sesteban951/shooting-for-contact},
+  abstract={Motion retargeting approaches often prioritize kinematic similarity over whole-body dynamics, contact consistency, and actuation limits, yielding references that are difficult for reinforcement learning (RL) policies to reproduce, particularly for contact-rich behaviors. We present a contact-implicit, direct simulation-based multiple-shooting (DSMS) framework that transforms kinematically feasible references into dynamically feasible whole-body trajectories. By embedding a differentiable simulator within a nonlinear program, DSMS resolves contact, friction, impacts, self-collision, and joint limits internally while enforcing tracking, actuation, and task constraints without prescribing a contact schedule or introducing explicit contact constraints. Compared with existing retargeting methods, DSMS accelerates motion-imitation RL training and yields policies with high success rates and low tracking error. We further demonstrate zero-shot sim-to-real transfer on the Unitree G1 through command-conditioned contact-rich crawling and a highly dynamic 180-degree jump-turn.}
+}
+
+@article{li2026mpcrl,
+  title={Accelerating and Scaling MPC-Guided Reinforcement Learning for Humanoid Locomotion and Manipulation},
+  author={Li, Junheng and Wu, Liang and Esteban, Sergio A and Yang, Lizhi and Drgo\v{n}a, J\'an and Ames, Aaron D},
+  journal={arXiv preprint arXiv:2606.05687},
+  year={2026},
+  arxiv={2606.05687},
+  pdf={https://arxiv.org/pdf/2606.05687},
+  website={https://caltech-amber.github.io/mpc-guided-rl/},
+  preview={preview_mpcrl.gif},
+  selected={true},
+  code={https://github.com/junhengl/mpc-rl},
+  abstract={In humanoid motion control, model predictive control (MPC) offers physically grounded prediction and constraint handling, while reinforcement learning (RL) enables robust whole-body skills through large-scale simulation. However, using MPC inside RL often requires time-consuming problem construction or excessive training overhead, making such frameworks difficult to justify in practice. This work studies efficient training-time MPC guidance for humanoid locomotion and manipulation, termed MPC-RL. We introduce a centroidal-dynamics MPC reward formulation that leverages guidance from MPC trajectories in training time. To make this practical in massively parallel RL, we develop πnMPC, a parallel-in-horizon and construction-free batched GPU MPC solver that operates directly on time-varying dynamics to avoid high memory usage and pre-compilation. Through a variety of comparative studies and hardware validations, we have found that MPC-RL achieves superior performance in locomotion and manipulation skills. The code base is available at https://github.com/junhengl/mpc-rl}
+}
+
 @inproceedings{esteban2026surprising,
   title={On Surprising Effects of Risk-Aware Domain Randomization for Contact-Rich Sampling-based Predictive Control},
   author={Esteban, Sergio A and Li, Junheng and Kurtz, Vince and Ames, Aaron D},
   booktitle={IEEE International Conference on Robotics and Automation (ICRA). Workshop on the Path Towards Generalizable Contact-Rich Robotics: Control and Representation},
   year={2026},
+  arxiv={2605.03290},
   pdf={https://arxiv.org/pdf/2605.03290},
   website={https://youtu.be/f1F0ALXxhSM},
   preview={preview_robust_smpc.gif},
@@ -19,9 +48,11 @@
   booktitle={Learning for Dynamics and Control Conference (L4DC)},
   year={2026},
   preview={preview_halo.png},
+  arxiv={2604.18887},
   pdf={https://arxiv.org/pdf/2604.18887},
   volume={331},
   selected={true},
+  code={https://github.com/sesteban951/halo-latent-locomotion},
   abstract={Reduced-order models are powerful for analyzing and controlling high-dimensional dynamical systems. Yet constructing these models for complex hybrid systems such as legged robots remains challenging. Classical approaches rely on hand-designed template models (e.g., LIP, SLIP), which, though insightful, only approximate the underlying dynamics. In contrast, data-driven methods can extract more accurate low-dimensional representations, but it remains unclear when stability and safety properties observed in the latent space meaningfully transfer back to the full-order system.
 To bridge this gap, we introduce HALO (Hybrid Auto-encoded Locomotion), a framework for learning latent reduced-order models of periodic hybrid dynamics directly from trajectory data. HALO employs an autoencoder to identify a low-dimensional latent state together with a learned latent Poincar\'e map that captures step-to-step locomotion dynamics. This enables Lyapunov analysis and the construction of an associated region of attraction in the latent space, both of which can be lifted back to the full-order state space through the decoder. Experiments on a simulated hopping robot and full-body humanoid locomotion demonstrate that HALO yields low-dimensional models that retain meaningful stability structure and predict full-order region-of-attraction boundaries.}
 }
@@ -36,6 +67,7 @@ To bridge this gap, we introduce HALO (Hybrid Auto-encoded Locomotion), a framew
   pages={1-8},
   keywords={Torso;Adaptation models;Computational modeling;Humanoid robots;Hardware;Robustness;Reduced order systems;Trajectory;Timing;Standards},
   doi={10.1109/Humanoids65713.2025.11203156},
+  arxiv={2509.04722},
   pdf={https://arxiv.org/pdf/2509.04722},
   website={https://vimeo.com/1110476518},
   preview={preview_hierarchical_rom_mpc.gif},
@@ -48,6 +80,7 @@ To bridge this gap, we introduce HALO (Hybrid Auto-encoded Locomotion), a framew
   booktitle={IEEE 64th Conference on Decision and Control (CDC)}, 
   title={A Layered Control Perspective on Legged Locomotion: Embedding Reduced Order Models via Hybrid Zero Dynamics}, 
   year={2025},
+  arxiv={2509.00294},
   pdf={https://arxiv.org/pdf/2509.00294},
   preview={preview_layered_locomotion.png},
   selected={true},
@@ -70,6 +103,7 @@ To bridge this gap, we introduce HALO (Hybrid Auto-encoded Locomotion), a framew
   pages={14735-14741},
   keywords={Legged locomotion;Schedules;Uncertainty;Humanoid robots;Reduced order systems;Robustness;Real-time systems;Tuning;Predictive control;Testing},
   doi={10.1109/ICRA55743.2025.11127605},
+  arxiv={2502.15630},
   pdf={https://arxiv.org/pdf/2502.15630.pdf},
   website={https://rom-cimpc.github.io/},
   preview={preview_rom_cimpc.gif},
