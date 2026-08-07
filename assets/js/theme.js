@@ -1,5 +1,9 @@
 // Has to be in the head tag, otherwise a flicker effect will occur.
 
+// Theme a visitor sees on their first load, before they touch the toggle. Set from
+// site.default_theme in _config.yml; "system" follows the visitor's OS preference.
+let defaultThemeSetting = "system";
+
 // Toggle through light, dark, and system theme settings.
 let toggleThemeSetting = () => {
   let themeSetting = determineThemeSetting();
@@ -252,11 +256,11 @@ let transTheme = () => {
 };
 
 // Determine the expected state of the theme toggle, which can be "dark", "light", or
-// "system". Default is "system".
+// "system". Falls back to the site-wide default until the visitor picks one.
 let determineThemeSetting = () => {
   let themeSetting = localStorage.getItem("theme");
   if (themeSetting != "dark" && themeSetting != "light" && themeSetting != "system") {
-    themeSetting = "system";
+    themeSetting = defaultThemeSetting;
   }
   return themeSetting;
 };
@@ -277,7 +281,11 @@ let determineComputedTheme = () => {
   }
 };
 
-let initTheme = () => {
+let initTheme = (defaultSetting) => {
+  if (defaultSetting == "dark" || defaultSetting == "light" || defaultSetting == "system") {
+    defaultThemeSetting = defaultSetting;
+  }
+
   let themeSetting = determineThemeSetting();
 
   setThemeSetting(themeSetting);

@@ -8,7 +8,7 @@ category: Engineering
 related_publications: false
 ---
 
-*** Note: Due to the confidential nature of this work, I am unable to share all photos and details of my work. ***
+**_Note: Due to the confidential nature of this work, I am unable to share all photos and details of my work._**
 
 At [Raytheon Intelligence and Space](https://www.rtx.com/), I engineered test and support hardware for space systems, automated hardware testing with custom software I developed, supported thermal-vacuum test campaigns, and produced detailed engineering drawings for test fixtures and flight components.
 

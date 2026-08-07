@@ -8,7 +8,7 @@ category: Coursework
 related_publications: false
 ---
 
-This truck was built as part of a manufacturing engineering lab and incorporated multiple fabrication methods. 
+This truck was built as part of a manufacturing engineering lab and incorporated multiple fabrication methods.
 
 The truck chassis was produced using green sand casting and later refined with grinders and a vertical mill. The truck bed was formed through sheet-metal work, including shearing and spot welding. Four wheels were machined on a CNC lathe, while the fifth—hidden in the photo—was made on a manual lathe. Additional fastening operations were completed during assembly. I used TIG and MIG welding to build the truck’s pedestal from thick sheet-metal blanks.
 

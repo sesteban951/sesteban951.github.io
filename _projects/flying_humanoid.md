@@ -8,7 +8,7 @@ category: Research
 related_publications: false
 ---
 
-My introduction to bipedal locomotion research began with developing control strategies for a thrust-assisted bipedal robot, specifically the Harpy platform. 
+My introduction to bipedal locomotion research began with developing control strategies for a thrust-assisted bipedal robot, specifically the Harpy platform.
 
 My first objective was to achieve planar walking on hardware, which I pursued by implementing linear inverted pendulum (LIP) walking without relying on thrust assistance. I developed a custom C++ controller and deployed it on a real-time Linux system, and I programmed the ELMO motor controllers to drive the leg actuators using PD control. The ELMO motor control code is available [here](https://github.com/sesteban951/ElmoHardware).
 
@@ -26,6 +26,7 @@ My first objective was to achieve planar walking on hardware, which I pursued by
 </div>
 
 <!-- CI-MPC -->
+
 I became interested in applying contact-implicit MPC to thrust-assisted bipedal locomotion, which motivated preliminary investigations into walking and jumping with thrust assistance.
 
 <!-- Simulation -->

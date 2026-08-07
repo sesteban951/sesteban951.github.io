@@ -80,7 +80,7 @@
     id="highlight_theme_dark"
   >
   <script>
-    initTheme();
+    initTheme("{{ site.default_theme | default: 'system' }}");
   </script>
 {% endif %}
 

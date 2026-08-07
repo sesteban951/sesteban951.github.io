@@ -8,7 +8,7 @@ category: Engineering
 related_publications: false
 ---
 
-*** Note: Due to the confidential nature of this work, I am unable to share all photos and details of my work. ***
+**_Note: Due to the confidential nature of this work, I am unable to share all photos and details of my work._**
 
 ## Mars Perseverance Rover
 
@@ -28,7 +28,8 @@ At the [NASA Jet Propulsion Laboratory (JPL)](https://www.jpl.nasa.gov/), I work
 </div>
 
 <!-- Pink Pig -->
-A mobility engineer and I led a group of flight technicians and built a variable center of gravity fixture. The variable center of gravity fixture (pink) was used to facilitate  handling of the Mars Perseverance Rover mobility subsystem. A photo was taken from the Spacecraft Assembly Facility (SAF) viewing window during an application of the fixture. 
+
+A mobility engineer and I led a group of flight technicians and built a variable center of gravity fixture. The variable center of gravity fixture (pink) was used to facilitate handling of the Mars Perseverance Rover mobility subsystem. A photo was taken from the Spacecraft Assembly Facility (SAF) viewing window during an application of the fixture.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -43,6 +44,7 @@ A mobility engineer and I led a group of flight technicians and built a variable
 </div>
 
 <!-- Testing -->
+
 I led the stress testing effort on a part of the mobility subassembly along with some testing of mobility capabilities via the Scarecrow Rover.
 
 <div class="row">

@@ -3,7 +3,7 @@ layout: about
 title: About
 permalink: /
 subtitle: Ph.D. Student, California Institute of Technology <br>
-          Advanced Mechanical Bipedal Experimental Robotics Lab
+  Advanced Mechanical Bipedal Experimental Robotics Lab
 
 profile:
   align: right

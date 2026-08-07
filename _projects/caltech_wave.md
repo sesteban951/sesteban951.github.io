@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Caltech WAVE
-description: Design, fabrication, and control of a 2-DOF gimbal system for UAV altimetry sensing. 
+description: Design, fabrication, and control of a 2-DOF gimbal system for UAV altimetry sensing.
 img: assets/img/caltech_wave/gimbal_final_cropped.jpg
 importance: 1
 category: R&D

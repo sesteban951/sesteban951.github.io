@@ -4,17 +4,16 @@
 
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Sergio
-middle_name: 
+middle_name:
 last_name: Esteban
 email: sesteban@caltech.edu
 contact_note: >
   The best way to reach me is through email. I check my email regularly!
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-   Sergio Esteban's personal website.
+  Sergio Esteban's personal website.
 footer_text: >
   Thank you for visiting!
 keywords: robotics, control-theory, locomotion, machine-learning, sergio-esteban # add your own keywords or leave empty
-
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: bender.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
@@ -48,7 +47,7 @@ repo_trophies:
 
 navbar_fixed: true
 footer_fixed: true
-search_enabled: false 
+search_enabled: false
 socials_in_search: false
 posts_in_search: false
 bib_search: false
@@ -392,6 +391,7 @@ enable_masonry: true # enables automatic project cards arrangement
 enable_math: true # enables math typesetting (uses MathJax)
 enable_tooltips: false # enables automatic tooltip links generated for each section titles on pages and posts
 enable_darkmode: true # enables switching between light/dark modes
+default_theme: dark # theme for first-time visitors: dark, light, or system (follows their OS setting)
 enable_navbar_social: false # enables displaying social links in the navbar on the about page
 enable_project_categories: true # enables categorization of projects into multiple categories
 enable_medium_zoom: true # enables image zoom feature (as on medium.com)

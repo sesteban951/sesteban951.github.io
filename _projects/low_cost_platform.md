@@ -14,7 +14,7 @@ I wanted to create a low-cost, portable alternative that still lets students lea
 
 This platform is a take on the canonical inverted pendulum but with adjustable positions on the propeller and counter weights along the arm. The goal here is to either perform system identification of the pendulum dynamics or to design a controller to control the pendulum angle using thrust from the propeller.
 
-The plant consists of few electronic elements, 3D printed parts, carbon fiber tubes, and a DC motor and propeller assembly. It can be quickly assembled or disassembled and easily clamped to any table. The plant can be programmed through MATLAB/Simulink, LabVIEW, or Arduino. 
+The plant consists of few electronic elements, 3D printed parts, carbon fiber tubes, and a DC motor and propeller assembly. It can be quickly assembled or disassembled and easily clamped to any table. The plant can be programmed through MATLAB/Simulink, LabVIEW, or Arduino.
 
 A paper describing the design and implementation of this platform was submitted and accepted to the 2021 ASEE Virtual Annual Conference
 
@@ -55,7 +55,7 @@ A paper describing the design and implementation of this platform was submitted 
 
 This platform is primarily geared for studying control design. Specifically, using a resistive strip along the beam, the position of the metal ball can be measured as it rolls along the beam and a servo motor is used to change the slope of the beam to control the position of the ball.
 
-Like the inverted pendulum platform, this plant is made of few electronic elements, 3D printed parts, laser cut parts, and a servo motor. The plant can also be programmed using MATLAB/Simulink, LabView, or Arduino. 
+Like the inverted pendulum platform, this plant is made of few electronic elements, 3D printed parts, laser cut parts, and a servo motor. The plant can also be programmed using MATLAB/Simulink, LabView, or Arduino.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -83,4 +83,3 @@ Like the inverted pendulum platform, this plant is made of few electronic elemen
 <div class="caption">
     Example closed loop tracking performance with PID control using Simulink. Yellow is the reference signal and blue is the ball position signal.
 </div>
-
