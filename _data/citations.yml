@@ -1,14 +1,18 @@
 metadata:
-  last_updated: '2026-07-29'
+  last_updated: '2026-08-12'
 papers:
   iaOXonsAAAAJ:2osOgNQ5qMEC:
     citations: 0
     title: 'HALO: Hybrid Auto-encoded Locomotion with Learned Latent Dynamics, Poincare Maps, and Regions of Attraction'
     year: '2026'
   iaOXonsAAAAJ:9yKSN-GCB0IC:
-    citations: 8
+    citations: 10
     title: Reduced-Order Model Guided Contact-Implicit Model Predictive Control for Humanoid Locomotion
     year: '2025'
+  iaOXonsAAAAJ:IjCSPb-OGe4C:
+    citations: 0
+    title: 'Shooting for Contact: Contact-Implicit Multiple Shooting for Dynamic Motion Retargeting'
+    year: '2026'
   iaOXonsAAAAJ:UeHWp8X0CEIC:
     citations: 0
     title: Accelerating and Scaling MPC-Guided Reinforcement Learning for Humanoid Locomotion and Manipulation
